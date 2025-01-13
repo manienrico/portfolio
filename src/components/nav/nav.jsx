@@ -1,8 +1,10 @@
-export default Nav(){
+import Logo from "../logo/logo";
+
+export default function Nav(){
     return(
-        <div>
-            <div>Logo</div>
+        <nav>
+            <Logo/>
             <div>Name</div>
-        </div>
+        </nav>
     )
 }
