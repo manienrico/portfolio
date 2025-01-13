@@ -1,7 +1,12 @@
 import React from 'react'
+import CompanyInfo from '../CompanyInfo/CompanyInfo'
+import SocialIcons from '../../components/icons/icons'
 
 export default function Footer() {
   return (
-    <div>Footer</div>
+    <footer>
+        <CompanyInfo />
+        <SocialIcons />
+    </footer>
   )
 }
