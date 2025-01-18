@@ -8,7 +8,8 @@ export default function Nav(){
                     <Logo />
                 </div>
                 
-                <div className="p-5">ABHIRAJ
+                <div className="p-5">
+                    <p>ABHIRAJ</p>
                     <span className="p-5">ADHIKARY</span>
                 </div>
             </nav>
