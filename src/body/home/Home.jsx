@@ -1,7 +1,10 @@
+//import react from "react";
+import Nav from "../../components/nav/nav";
+
 export default function Home(){
     return(
         <div>
-            Hello World 2!
+            <Nav />
         </div>
     )
 }
