@@ -5,7 +5,7 @@ import SideNav from "../sideNav/sidenav";
 
 export default function Home(){
     return(
-        <div className="relative ">
+        <div className="relative bg-black text-white ">
             <Nav />
             <SideNav />
             <MainSection />
