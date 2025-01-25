@@ -11,7 +11,7 @@ import Footer from "./body/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App h-screen bg-gray-100">
       {/* Hello World! */}
       <BrowserRouter>
         <Routes>

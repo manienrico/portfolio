@@ -4,7 +4,7 @@ import SideNav from "../sideNav/sidenav";
 
 export default function Home(){
     return(
-        <div>
+        <div className="">
             <Nav />
             <SideNav />
         </div>
