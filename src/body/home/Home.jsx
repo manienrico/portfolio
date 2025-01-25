@@ -5,10 +5,13 @@ import SideNav from "../sideNav/sidenav";
 
 export default function Home(){
     return(
-        <div className="relative bg-black text-white ">
+        <div className="relative bg-black text-white flex flex-col">
+          
             <Nav />
             <SideNav />
             <MainSection />
+          
+            
         </div>
     )
 }
