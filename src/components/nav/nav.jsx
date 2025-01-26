@@ -8,9 +8,9 @@ export default function Nav(){
                     <Logo />
                 </div>
                 
-                <div className="p-5">
-                    <p>ABHIRAJ</p>
-                    <span className="p-5">ADHIKARY</span>
+                <div className="relative text-lg">
+                    <p className="absolute right-0">ABHIRAJ</p>
+                    <div className="absolute right-0 top-7 text-red-400 font-bold text-xl">ADHIKARY</div>
                 </div>
             </nav>
         </header>
