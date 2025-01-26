@@ -4,9 +4,12 @@ import SocialIcons from '../../components/icons/icons'
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className='absolute bottom-0 flex justify-between z-9'>
+        <div>
         <CompanyInfo />
-        <SocialIcons />
+        </div>
+        <div><SocialIcons /></div>
+        
     </footer>
   )
 }
