@@ -1,5 +1,6 @@
 import React from 'react'
 import pic from "../../imgs/profile.png"
+import Footer from '../Footer/Footer'
 
 export default function MainSection() {
   return (
@@ -7,6 +8,7 @@ export default function MainSection() {
       <div className='w-80 h-80 rounded-full border-[1rem] border-red-500'>
         <img src={pic} alt='Profile picture' className='rouded-full' />
       </div>
+      <Footer />
     </section>
   )
 }
