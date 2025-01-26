@@ -1,5 +1,6 @@
 //import react from "react";
 import Nav from "../../components/nav/nav";
+import Footer from "../Footer/Footer";
 import MainSection from "../mainSection/mainSection";
 import SideNav from "../sideNav/sidenav";
 
@@ -10,7 +11,7 @@ export default function Home(){
             <Nav />
             <SideNav />
             <MainSection />
-          
+            <Footer />
             
         </div>
     )
