@@ -6,14 +6,14 @@ import SideNav from "../sideNav/sidenav";
 
 export default function Home(){
     return(
-        <div className="relative bg-black text-white flex flex-col">
-            <Nav />
-            
-            <SideNav />
-            <MainSection />
+        <div className="flex flex-col bg-black text-white overflow-hidden">
+            <div className="relative  flex flex-col">
+                <Nav />
+                <SideNav />
+                <MainSection />
+            </div>
             
             <Footer />
-            
         </div>
     )
 }
