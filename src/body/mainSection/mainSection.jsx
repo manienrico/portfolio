@@ -8,7 +8,7 @@ export default function MainSection() {
       <div className='w-80 h-80 rounded-full border-[1rem] border-red-500'>
         <img src={pic} alt='Profile picture' className='rouded-full' />
       </div>
-      <Footer />
+      
     </section>
   )
 }
