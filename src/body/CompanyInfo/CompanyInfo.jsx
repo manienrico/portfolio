@@ -6,7 +6,7 @@ export default function CompanyInfo() {
         <h1>Web Designer</h1>
         <div className='flex '>
           <span className='p-0 font-thin'>From</span>
-          <span className='px-2 font-bold'>IN</span>
+          <span className='px-2 font-bold text-red-500'>IN</span>
         </div>
         
     </div>
