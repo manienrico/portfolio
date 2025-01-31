@@ -7,13 +7,12 @@ import SideNav from "../sideNav/sidenav";
 export default function Home(){
     return(
         <div className="flex flex-col bg-black text-white overflow-hidden">
-            <div className="relative  flex flex-col">
-                <Nav />
-                <SideNav />
+            <Nav />
+            <SideNav />
+            <div className="static flex flex-col">
                 <MainSection />
+                <Footer />
             </div>
-            
-            <Footer />
         </div>
     )
 }
