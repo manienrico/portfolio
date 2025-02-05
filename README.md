@@ -1,10 +1,26 @@
-# Getting Started with Create React App
+# Anonyms - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Anonyms is a modern, responsive portfolio website built with React and Tailwind CSS. The design was implemented from a Figma UI, ensuring a pixel-perfect and visually appealing user experience. This project serves as a customizable template for developers and designers to showcase their work effectively.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+Features
+
+Technologies Used
+
+Installation
+
+Usage
+
+Customization
+
+Contributing
+
+License
+
+Acknowledgements
+
+Contact
 
 ### `npm start`
 
